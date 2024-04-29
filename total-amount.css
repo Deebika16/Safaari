@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181616;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #181616;
+    padding: 40px;
+    border: 1px solid #9f9a9a;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: 'Eroded', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow: -1px 1px 0 #c1aa9b, 1px 1px 0 #c1aa9b, 1px -1px 0 #c1aa9b;
+}
+
+#total-price {
+    font-size: 2rem;
+    color: #804c29;
+    text-shadow: -1px 1px 0 #9f9a9a, 1px 1px 0 #9f9a9a, 1px -1px 0 #9f9a9a;
+    margin-bottom: 30px;
+}
+
+#proceed-btn {
+    background-image: -webkit-linear-gradient(2deg, rgb(128, 76, 41) 0%, rgb(48, 28, 19) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#proceed-btn:hover {
+    transform: translateY(-5px);
+}
